@@ -7,6 +7,8 @@ import EventBinding from "./event-binding/EventBinding";
 import RenderWithState from "./renderWithState/RenderWithState";
 import ChonXe from "./ChonXe/ChonXe";
 import RenderWithMap from "./renderWithMap/RenderWithMap";
+import ChonKinh from "./chonKinh";
+import Props from "./Props";
 
 class App extends Component {
   render() {
@@ -17,7 +19,9 @@ class App extends Component {
           {/* <EventBinding /> */}
           {/* <RenderWithState /> */}
           {/* <ChonXe /> */}
-          <RenderWithMap />
+          {/* <RenderWithMap /> */}
+          {/* <ChonKinh/> */}
+          <Props />
         </div>
       </div>
     );
